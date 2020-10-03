@@ -1,10 +1,10 @@
 <template>
 <div>
   <div class="social-container">
-    <a href="mailto:wang@zongsheng.im" title="Email">      
+    <a href="https://www.linkedin.com/in/wangzs/" title="Linkedin">      
       <fa-icon label="Email" class="social-btn">
         <fa-icon name="circle" scale="2" class="social-btn-circle" />
-        <fa-icon name="envelope" class="social-btn-inner"/>  
+        <fa-icon name="linkedin" class="social-btn-inner"/>  
       </fa-icon>
     </a>
     <a href="https://github.com/wzsh" target="_blank" title="My Github">      
@@ -21,8 +21,8 @@
     </a>
   </div>
   <div>
-  © 2018 Zong-Sheng Wang. <br>
-  Built with  <a href="https://vuejs.org/" target="_blank">Vue.js</a> & <a href="http://element.eleme.io/#/en-US/" target="_blank">Element-UI</a>. Hosted on  <a href="https://pages.github.com" target="_blank">Github Pages</a>.
+  Last Updated: Sep. 30th, 2020<br>
+  Built with  <a href="https://vuejs.org/" target="_blank">Vue.js</a> & hosted on  <a href="https://pages.github.com" target="_blank">Github Pages</a>.
   </div>
 </div>
 </template>

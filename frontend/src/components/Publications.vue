@@ -1,10 +1,27 @@
 <template>
 <div>
   <div class="paper_item">
+    <div class="paper_title"> Efficient Chaotic Imperialist Competitive Algorithm with Dropout Strategy for Global Optimization.</div>
+    <div class="paper_desc">
+      Zong-Sheng Wang, Jung Lee, Chang Geun Song, Sun-Jeong Kim.<br /> 
+      Symmetry 2020, 12(4), 635.
+      [<a href="https://doi.org/10.3390/sym12040635">doi</a>]
+    </div> 
+  </div>
+  <div class="paper_item">
+    <div class="paper_title"> Data-driven point sampling with blue-noise properties for triangular meshes.</div>
+    <div class="paper_desc">
+      Zong-Sheng Wang, Jung Lee, Chang Geun Song, Sun-Jeong Kim.<br /> 
+      In Proceedings of the 2020 3rd International Conference on Computer Science and Software Engineering (CSSE 2020). 
+      [<a href="https://doi.org/10.1145/3403746.3403908">doi</a>]
+    </div> 
+  </div>
+  <div class="paper_item">
     <div class="paper_title"> Unrealistic map based navigation system for pedestrian.</div>
     <div class="paper_desc">
       Zong-Sheng Wang, Seon-Woo Lee, Chang Geun Song.<br /> 
-      Life Science Journal. 11. 73-78. (2014) [<a href="http://www.lifesciencesite.com/lsj/life1107s/012_24406life1107s14_73_78.pdf">pdf</a>]
+      Life Science Journal. 11. 73-78. (2014) 
+      [<a href="https://doi.org/10.7537/marslsj1107s14.12">doi</a>]
     </div> 
   </div>
   <div class="paper_item">

@@ -5,6 +5,15 @@
       <fa-icon name="book" class="teach_icon" scale="1.5" />
     </el-col>
     <el-col :sm="23" :xs="22">
+      <div class="teach_term">Fall 2019</div>
+      <div class="teach_content">Mentoring for Unity Shader Programming</div>
+    </el-col>
+  </el-row>
+  <el-row class="teach_item">
+    <el-col :sm="1" :xs="2">
+      <fa-icon name="book" class="teach_icon" scale="1.5" />
+    </el-col>
+    <el-col :sm="23" :xs="22">
       <div class="teach_term">Winter 2018</div>
       <div class="teach_content">Mentoring for Web Application Development</div>
     </el-col>

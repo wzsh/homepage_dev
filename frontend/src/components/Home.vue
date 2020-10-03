@@ -7,10 +7,10 @@
       <img class="avatar" src="../assets/avatar01.png" />
     </el-row>
     <el-row class="name">
-      Zong-Sheng Wang (王宗晟)
+      Zong-Sheng Wang (王宗晟 / 왕종성)
     </el-row>
     <el-row class="description">
-      PhD Student @ GVE Lab
+      PhD candidate @ GVE Lab
     </el-row>
     <el-footer class="lg-footer">
       <Footer />
@@ -26,17 +26,17 @@
       </el-col>
       <el-col :span="12">
       <el-row class="sm-name">
-        Zong-Sheng Wang (王宗晟)
+        Zong-Sheng Wang (王宗晟 / 왕종성)
       </el-row>
       <el-row class="sm-description">
-        PhD Student @ GVE Lab
+        PhD candidate @ GVE Lab
       </el-row>
       </el-col>
     </el-row>
     <div class="md-main"> 
     <el-row type="flex">
       <el-col :md="10" :sm="12" :xs="13" class="basic_info">
-        <p>I am a PhD student in Convergence Software at Hallym University, working in Computer Graphics and Virtual Environment Laboratory advised by Prof. Sun-Jeong Kim.</p>
+        <p>I am a PhD candidate in Convergence Software at Hallym University, working in Computer Graphics and Virtual Environment Laboratory advised by Prof. Sun-Jeong Kim.</p>
         <p>My research interests lie in Computer Graphics and Machine Learning.</p>
       </el-col>
       <el-col :md="1" :sm="1" :xs="1"></el-col>
@@ -68,15 +68,26 @@
         </el-collapse-item>
         <el-collapse-item name="3">
           <template slot="title">
-            <div class="collapse-title">PROJECTS</div>
+            <div class="collapse-title">LANGUAGES</div>
           </template>
-          <Projects />
+          <div>
+            <el-tag type="success">Mandarin ✿✿✿✿✿ </el-tag>
+            <el-tag>Korean ✿✿✿✿❀ </el-tag>
+            <el-tag type="danger">English ✿✿✿❀❀ </el-tag>
+            <el-tag type="warning">Japanese ✿❀❀❀❀❀ </el-tag>
+        </div>
         </el-collapse-item>
         <el-collapse-item name="4">
           <template slot="title">
             <div class="collapse-title">MISC & OPEN-SOURCE</div>
           </template>
           <Misc />
+        </el-collapse-item>
+        <el-collapse-item name="5">
+          <template slot="title">
+            <div class="collapse-title">EARLY PROJECTS</div>
+          </template>
+          <Projects />
         </el-collapse-item>
       </el-collapse>        
     </el-row>
@@ -124,7 +135,7 @@ export default {
 }
 .md-aside {
     background-color: #555555;
-    background: url(../assets/bg02.jpg) no-repeat right 43% top;
+    background: url(../assets/bg04.jpg) no-repeat right 49% top;
     background-size: cover;
     color: #333;
     text-align: center;
@@ -197,7 +208,7 @@ export default {
 }
 .sm-header {
     background-color: #555555;
-    background: url(../assets/bg02.jpg) no-repeat right top 70%;
+    background: url(../assets/bg01.jpg) no-repeat right top 35%;
     background-size: cover;
     color: #333;
     text-align: center;

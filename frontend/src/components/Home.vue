@@ -36,7 +36,7 @@
     <div class="md-main"> 
     <el-row type="flex">
       <el-col :md="10" :sm="12" :xs="13" class="basic_info">
-        <p>I am a PhD Fellow at Hallym University. I received my B.S. and M.S. degrees in computer engineering and Ph.D. degree in convergence software 
+        <p>I am a Research Fellow at Hallym University. I received my B.S. and M.S. degrees in computer engineering and Ph.D. degree in convergence software 
     from Hallym University, Chuncheon, South Korea, in 2012, 2014, and 2021, respectively.</p>
         <p>My research interests lie in Computer Graphics, Machine Learning, Virtual Reality, and Optimization Algorithms.</p>
       </el-col>

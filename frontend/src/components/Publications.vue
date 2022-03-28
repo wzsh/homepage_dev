@@ -1,6 +1,13 @@
 <template>
 <div>
   <div class="paper_item">
+    <div class="paper_title"> Controllable Swarm Animation using Deep Reinforcement Learning with a Rule-based Action Generator.</div>
+    <div class="paper_desc">
+      Zong-Sheng Wang.<br /> 
+      Doctoral Dissertation. (2021)
+    </div> 
+  </div>
+  <div class="paper_item">
     <div class="paper_title"> Efficient Chaotic Imperialist Competitive Algorithm with Dropout Strategy for Global Optimization.</div>
     <div class="paper_desc">
       Zong-Sheng Wang, Jung Lee, Chang Geun Song, Sun-Jeong Kim.<br /> 

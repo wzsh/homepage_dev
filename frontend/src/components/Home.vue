@@ -1,16 +1,16 @@
 <template>
 <el-container>
   <el-row type="flex">
-  <el-col :md="6" class="hidden-sm-and-down">
+  <el-col :xl="9" :md="6" class="hidden-sm-and-down">
   <el-aside width="25%" class="md-aside">
     <el-row>
-      <img class="avatar" src="../assets/avatar01.png" />
+      <img class="avatar" src="../assets/avatar02.jpg" />
     </el-row>
     <el-row class="name">
-      Zong-Sheng Wang (王宗晟 / 왕종성)
+      Zong-Sheng Wang (王宗晟 / 왕종성), PhD
     </el-row>
     <el-row class="description">
-      PhD candidate @ GVE Lab
+      Research Fellow @ Hallym Unv.
     </el-row>
     <el-footer class="lg-footer">
       <Footer />
@@ -18,26 +18,27 @@
   </el-aside>
   </el-col>
   
-  <el-col :md="18" :xs="24">
+  <el-col :xl="15" :md="18" :xs="24">
   <el-main>
     <el-row type="flex" class="hidden-md-and-up sm-header">
       <el-col :span="8">
-        <img class="sm-avatar" src="../assets/avatar01.png" />
+        <img class="sm-avatar" src="../assets/avatar02.jpg" />
       </el-col>
       <el-col :span="12">
       <el-row class="sm-name">
-        Zong-Sheng Wang (王宗晟 / 왕종성)
+        Zong-Sheng Wang (王宗晟 / 왕종성), PhD
       </el-row>
       <el-row class="sm-description">
-        PhD candidate @ GVE Lab
+        Research Fellow @ Hallym Unv.
       </el-row>
       </el-col>
     </el-row>
     <div class="md-main"> 
     <el-row type="flex">
       <el-col :md="10" :sm="12" :xs="13" class="basic_info">
-        <p>I am a PhD candidate in Convergence Software at Hallym University, working in Computer Graphics and Virtual Environment Laboratory advised by Prof. Sun-Jeong Kim.</p>
-        <p>My research interests lie in Computer Graphics and Machine Learning.</p>
+        <p>I am a PhD Fellow at Hallym University. I received my B.S. and M.S. degrees in computer engineering and Ph.D. degree in convergence software 
+    from Hallym University, Chuncheon, South Korea, in 2012, 2014, and 2021, respectively.</p>
+        <p>My research interests lie in Computer Graphics, Machine Learning, Virtual Reality, and Optimization Algorithms.</p>
       </el-col>
       <el-col :md="1" :sm="1" :xs="1"></el-col>
       <el-col :md="8" :sm="10" :xs="9" class="address">
@@ -45,7 +46,7 @@
         <p>wzs (at) hallym.ac.kr<br/>wang (at) zongsheng.im</p>
       </el-col>       
     </el-row>
-    <br /><br />
+
     <el-row>
       <el-collapse v-model="active_names" >
           <el-collapse-item  name="0">

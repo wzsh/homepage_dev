@@ -21,7 +21,7 @@
     </a>
   </div>
   <div>
-  Last Updated: Sep. 30th, 2020<br>
+  Last Updated: Sep. 30th, 2021<br>
   Built with  <a href="https://vuejs.org/" target="_blank">Vue.js</a> & hosted on  <a href="https://pages.github.com" target="_blank">Github Pages</a>.
   </div>
 </div>

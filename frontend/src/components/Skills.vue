@@ -3,7 +3,7 @@
     <el-tag>C/C++</el-tag>
     <el-tag type="success">Java</el-tag>
     <el-tag type="warning">Python</el-tag>
-    <el-tag type="danger">Unity</el-tag>
+    <el-tag type="danger">Unity3D</el-tag>
     <el-tag type="success">C#</el-tag>
     <el-tag type="info">LaTeX</el-tag>
     <el-tag>PostgreSQL</el-tag>

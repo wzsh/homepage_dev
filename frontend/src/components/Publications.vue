@@ -4,7 +4,8 @@
     <div class="paper_title"> Controllable Swarm Animation using Deep Reinforcement Learning with a Rule-based Action Generator.</div>
     <div class="paper_desc">
       Zong-Sheng Wang.<br /> 
-      Doctoral Dissertation. (2021)
+      Doctoral Dissertation. (2021) 
+      [<a href="https://doi.org/10.1109/ACCESS.2022.3172492">doi</a>]
     </div> 
   </div>
   <div class="paper_item">
